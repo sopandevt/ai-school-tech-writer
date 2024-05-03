@@ -1,23 +1,13 @@
-# AI for Developer Productivity: Technical Writer Agent
+Based on the code changes and commit messages from the GitHub pull request, it appears that the following updates have been made:
 
-## Overview
-In this project, we developed a **Technical Writer Agent** to enhance developer productivity. The core functionality of our agent leverages Retrieval-Augmented Generation (RAG) to dynamically update and refine technical documentation. This innovative approach not only streamlines the documentation process but also ensures that it remains accurate, up-to-date, and contextually relevant.
+1. Added a step in the workflow to extract PR Number and Commit SHA from the GitHub event context and then run a Python script to generate an updated README.
+2. Updated the `.gitignore` file to ignore the `venv` directory.
+3. Added new dependencies to the `requirements.txt` file.
+4. Modified the `utility.py` file to utilize new modules for OpenAI interaction and to update the README based on recent code changes.
+5. Updated the README content with instructions for the AI to review code changes and commit messages and propose README updates.
 
-## Now It's Your Turn!
-Embrace your creativity and personalize this project to craft a solution that uniquely addresses the challenges and inefficiencies you face in your own environment. After seeing what our Technical Writer Agent can do, it’s time for you to take the reins. Use the foundation we’ve built and apply it to a challenge you face in your own professional or personal environment. Here’s how you can get started:
+It seems that the changes aim to automate the process of updating the README based on code changes and commit messages using an AI algorithm powered by OpenAI. The workflow extracts necessary information, runs a Python script to generate the updated README, and then creates a pull request with the proposed changes.
 
-### Minimum Requirements
-1. **RAG Integration:** Successfully integrate Retrieval-Augmented Generation (RAG) to enable your agent to access and utilize external information when generating responses.
-2. **Vector Database Implementation:** Create and implement a vector data store capable of embedding and retrieving documents, ensuring that the system can access necessary information efficiently.
+The README file content has been updated to include instructions for the AI to review the code changes and commit messages and propose updates to the README.
 
-### Stretch Goals
-1. **Enhanced UI/UX:** Develop a more advanced and user-friendly interface that includes features such as real-time suggestions, auto-completion of content, and a more interactive documentation process.
-2. **Automated Content Updates:** Implement a feature where the agent periodically checks and updates existing documentation based on new information or changes in the relevant field, ensuring that all documentation remains current without manual intervention.
-3. **Integration with Existing Tools:** Develop integrations for the agent with commonly used development tools and platforms (e.g., Confluence, Jira, Notion) to streamline workflows and increase accessibility.
-4. **Add The Features You Want**: Let your creativity shine by adding a unique feature that significantly simplifies or enhances your daily routines. Innovate with functionalities that solve problems and improve efficiency or satisfaction in meaningful ways.
-
-## Privacy and Submission Guidelines
-- **Submission Requirements:** Please submit a link to your public repo with your implementation or a loom video showcasing your work on the [BloomTech AI Platform](app.bloomtech.com). 
-- **Sensitive Information:** If your implementation involves sensitive information, you are not required to submit a public repository. Instead, a detailed review of your project through a Loom video is acceptable, where you can demonstrate the functionality and discuss the technologies used without exposing confidential data.
-
----
+If you have any specific questions or need further assistance, feel free to ask!
